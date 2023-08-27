@@ -37,6 +37,11 @@ body{
 
 .navigation-item .current{
   color: var(--primary-color);
+  border-radius: 2px;
+  border-bottom: solid var(--primary-color);
+  width: 48px;
+  height: 4px;
+  padding-bottom: 28px;
 }
 
 .navigation-item .navigation-link:hover{
