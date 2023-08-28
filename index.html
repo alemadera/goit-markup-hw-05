@@ -38,8 +38,14 @@
     <section class="main">
       <div class="container main-hero">
         <h1 class="main-title">SOLUCIONES EFICACES PARA SU NEGOCIO</h1>
-        <button class="primary-button" type="button" href="./modal.js">Solicite nuestro servicio</button>
-        <div class="box-modal"></div>
+        <button class="primary-button" type="button" data-modal-open>Solicite nuestro servicio</button>
+      </div>
+      <div class="backdrop is-hidden" data-modal>
+        <div class="modal">
+          <button class="button-close-modal" type="button" data-modal-close>
+            <svg width="18px" height="18px"><use href="./images/icons.svg#icon-close-black"></use></svg>
+          </button>
+        </div>
       </div>
     </section>
     <section>
@@ -350,5 +356,6 @@
       </div>
     </div>
   </footer>
+  <script src="./js/modal.js"></script>
 </body>
 </html>
