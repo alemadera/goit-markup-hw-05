@@ -572,6 +572,7 @@ letter-spacing: 0.03em;
   text-align: center;
   color: var(--detail-color);
   background-color: rgba(33, 150, 243, 0.9);
+  transition: top 250ms var(--cubic);
 }
 
 /* .box-modal{
