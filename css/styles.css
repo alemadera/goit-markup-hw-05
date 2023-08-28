@@ -583,6 +583,10 @@ letter-spacing: 0.03em;
   height: 100vh;
   background-color: rgba(0, 0, 0, 0.20);
   z-index:1;
+  visibility: visible;
+  opacity: 1;
+  pointer-events: all;
+  transition: opacity 300ms var(--cubic), visibility 300ms var(--cubic);
 }
 
 .modal{
